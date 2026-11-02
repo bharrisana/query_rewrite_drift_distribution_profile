@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "bharrisana-parallexpert_jd248"
+name = "bharrisana-query_rewrite_drift_distribution_profile"
 version = "0.1.0"
 description = "抽取数值做分布分析，用中位数绝对偏差识别预训练并行策略专家·查询改写的语义漂移上的离群点"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://bharrisana.github.io"
-Repository = "https://github.com/bharrisana/parallexpert_jd248"
-Issues = "https://github.com/bharrisana/parallexpert_jd248/issues"
+Repository = "https://github.com/bharrisana/query_rewrite_drift_distribution_profile"
+Issues = "https://github.com/bharrisana/query_rewrite_drift_distribution_profile/issues"
 
 [project.scripts]
-parallexpert_jd248 = "parallexpert_jd248:main"
+query_rewrite_drift_distribution_profile = "query_rewrite_drift_distribution_profile:main"
 
 [tool.setuptools]
-py-modules = ["parallexpert_jd248"]
+py-modules = ["query_rewrite_drift_distribution_profile"]
